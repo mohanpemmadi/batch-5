@@ -67,4 +67,14 @@ if value == 123:
 
 
 
+"""
+git status - tells about the new changes
+git add - its adds new files to git software
+git commit -m 'message" - a message to identify current changes
+git push origin branch_name - push the code to github
+
+"""
+
+
+
 
