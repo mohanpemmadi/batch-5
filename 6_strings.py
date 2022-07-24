@@ -1,9 +1,11 @@
 
-''' string - collection characters '''
+''' string - collection characters
+
+ Strings are immutables'''
 
 # name = 'maheshbabu'
 # name = "krsihna"
-name = '''alluarjun'''
+# name = '''alluarjun'''
 # name = """ntr  kjalsa;ldmlasdmldsmldskjdkjsasjssj
 # aKNLKAlkA;"""
 
@@ -22,7 +24,8 @@ M	a	h	e	s	h	b	a	b	u
 '''
 # slicing [start:end:step]
 # print(name)
-# print(name[0])
+print(name[0])
+name[0] = 'K'
 # print(name[3])
 # print(name[9])
 # print(name[1:6])
@@ -64,8 +67,9 @@ lang2 = 'java'
 
 # capitalize
 
-print('original - :',lang)
+# print('original - :',lang)
 # print(lang.capitalize())
+# print(lang)
 
 # title
 
@@ -81,9 +85,80 @@ print('original - :',lang)
 
 # count
 
-print(lang.count('a'))
+# print(lang.count('a'))
 
-# added new line
+# find
+
+# print(lang.find('is'))
+# print(lang.find('n'))
+# print(lang.find('eat'))
+# print(lang.find('abc'))
+
+# index
+
+# print(lang.index('is'))
+# print(lang.index('n'))
+# print(lang.index('s great lang'))
+# print(lang.index('abc'))
+
+name = 'python'
+
+# startswith
+# print(name.startswith('p'))
+# print(name.startswith('d'))
+# print(name.startswith('pyt'))
+
+
+# endswith
+
+# print(name.endswith('n'))
+# print(name.endswith('p'))
+# print(name.endswith('hon'))
+
+
+# isalpha
+
+# print(name.isalpha())
+
+# isdigit
+
+# print('12345'.isdigit())
+
+# isalnum
+
+# print('123'.isalnum())
+# print('abc'.isalnum())
+# print('123abc'.isalnum())
+# print('&6'.isalnum())
+
+# replace
+
+# print(name.replace('p','java'))
+#
+# name2 = 'abcabc'
+# print(name.replace('a','xyz'))
+#
+# print(name2)
+
+# split
+
+st = 'python is a great lang, and its easy to and learn'
+
+# print(st.split())
+# print(st.split(','))
+# print(st.split('and'))
+
+
+# strip
+
+name = ' ab cd '
+# print(name)
+# print(name.strip())
+print(name.lstrip())
+print(name.rstrip())
+
+
+
 
 
 
