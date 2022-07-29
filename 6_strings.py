@@ -24,8 +24,8 @@ M	a	h	e	s	h	b	a	b	u
 '''
 # slicing [start:end:step]
 # print(name)
-print(name[0])
-name[0] = 'K'
+# print(name[0])
+# name[0] = 'K'
 # print(name[3])
 # print(name[9])
 # print(name[1:6])
@@ -163,3 +163,10 @@ print(name.rstrip())
 
 
 
+res = """
+ababababababab
+ababababababab
+ababababababab
+ababababababab """
+
+print(res.replace('b','python'))

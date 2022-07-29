@@ -5,7 +5,7 @@
 
 krishna = 789
 
-print(krishna)
+# print(krishna)
 
 
 # value = 100
@@ -58,10 +58,23 @@ print(krishna)
 
 
 
+# a = 100
+# b = 12.34
+# c = 'ravi'
+# d = "ravi"
+
 a = 100
-b = 12.34
-c = 'ravi'
-d = "ravi"
+
+print(id(a))
+
+b = 100
+
+print(id(b))
+
+c = 100
+
+print(id(c))
+
 
 
 

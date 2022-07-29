@@ -17,5 +17,13 @@
 
 ''' output - displays(print) the output on the screen '''
 
-value = 12345
-print(value)
+# value = 12345
+# print(value)
+
+
+value1 = (input('enter a value1'))
+# value2 = eval(input('enter a value2'))
+print(value1)
+
+# print(value1+value2)
+print(type(value1))
