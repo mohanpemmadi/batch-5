@@ -48,7 +48,7 @@ lst = [100,200,(300,400)]
 # lst[2] = 12345
 # print(lst)
 
-tple = (600,700,[800,900])
+# tple = (600,700,[800,900])
 # print(tple)
 # tple[0] = 666
 # print(tple)
@@ -57,12 +57,44 @@ tple = (600,700,[800,900])
 #
 # tple[2] = 54321
 
-print(tple[2][0])
-print(tple[2][1])
+# print(tple[2][0])
+# print(tple[2][1])
+#
+# tple[2][0] = 888
+#
+# print(tple)
 
-tple[2][0] = 888
 
-print(tple)
+
+''' string reverse '''
+
+def string_reverse(st):
+    res_st = ''
+    for i in st:
+        res_st = i + res_st
+        print(res_st)
+    return res_st
+
+
+# print(string_reverse('python'))
+
+
+''' count no of occurances of a number'''
+
+# lst.count(1)
+def count_fun(lst, n):
+    res = 0
+    for i in lst:
+        if i == n:
+            res = res +1
+    return res
+
+lst = [1,2,1,2,1,3,4,1,4,1]
+n = 4
+print(count_fun(lst,n))
+
+
+
 
 
 
