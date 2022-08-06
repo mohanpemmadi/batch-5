@@ -91,7 +91,7 @@ def count_fun(lst, n):
 
 lst = [1,2,1,2,1,3,4,1,4,1]
 n = 4
-print(count_fun(lst,n))
+# print(count_fun(lst,n))
 
 
 
