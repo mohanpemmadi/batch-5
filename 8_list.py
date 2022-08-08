@@ -13,7 +13,7 @@ delete
 
 # lst = list((1,2,3))
 
-# lst = [100,2000,'abc',12.34,100,'sai']
+# lst = [100,2000,'abcd',12.34,100,'sai']
 
 # print(lst[1])
 # print(lst[-1])

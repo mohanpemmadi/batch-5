@@ -39,7 +39,7 @@
 
 ''' dictionary '''
 
-dt = {'name':'krishna','age':30,123:'abc',12.34:[1,2,3]}
+dt = {'name':'krishna','age':30,123:'abcd',12.34:[1,2,3]}
 
 # print(dt['name'])
 # for i in dt:

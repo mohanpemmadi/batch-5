@@ -92,14 +92,14 @@ lang2 = 'java'
 # print(lang.find('is'))
 # print(lang.find('n'))
 # print(lang.find('eat'))
-# print(lang.find('abc'))
+# print(lang.find('abcd'))
 
 # index
 
 # print(lang.index('is'))
 # print(lang.index('n'))
 # print(lang.index('s great lang'))
-# print(lang.index('abc'))
+# print(lang.index('abcd'))
 
 name = 'python'
 
@@ -127,7 +127,7 @@ name = 'python'
 # isalnum
 
 # print('123'.isalnum())
-# print('abc'.isalnum())
+# print('abcd'.isalnum())
 # print('123abc'.isalnum())
 # print('&6'.isalnum())
 

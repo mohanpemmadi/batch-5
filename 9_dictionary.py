@@ -10,7 +10,7 @@ Dictionary -  it's a collection of unordered key value pairs and its mutable
 
 
 
-# dt = {'name': 'mohan', 'age': 31, 'name':'sai', 'salary': 50000, 123: 'abc', 12.34: 1000,(4,5):45,'name':'venky'}
+# dt = {'name': 'mohan', 'age': 31, 'name':'sai', 'salary': 50000, 123: 'abcd', 12.34: 1000,(4,5):45,'name':'venky'}
 
 #here key is "name" and value is "mohan"
 
@@ -35,7 +35,7 @@ Dictionary -  it's a collection of unordered key value pairs and its mutable
 # print(dt)
 
 # print(dir(dt))
-dt = {'age': 31, 'name':'sai', 'salary': 50000, 123: 'abc', 12.34: 1000,(4,5):45}
+dt = {'age': 31, 'name':'sai', 'salary': 50000, 123: 'abcd', 12.34: 1000,(4,5):45}
 
 # 'clear', 'copy', 'fromkeys', 'get', 'items', 'keys', 'pop', 'popitem', 'setdefault', 'update', 'values'
 
