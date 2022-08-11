@@ -57,15 +57,29 @@ from xyz.test1 import divide
 
 print('test1 : ', divide(100,20))
 
-from xyz.test3 import name
+''' system defined module - modules comes with python installation '''
 
-print('my name is :',name)
+import os,datetime
+
+# print(dir(os))
+
+# print(os.getcwd())
+#
+# print(datetime.datetime.now())
 
 
-from abcd.test2 import sub
+''' third party modules - moules can be installed through internet 
 
-print('sub : ',sub(10,3))
 
+pip install module_name
+pip install module_name==version
+pip uninstall module_name
+
+'''
+
+from colorama import Fore
+print('some red text')
+print(Fore.RED + 'some red text')
 
 
 
