@@ -1,0 +1,13 @@
+{
+  "name": "rolex",
+  "age": 30,
+  "salary": 50000,
+  "qualification": [
+    "PG",
+    "G"
+  ],
+  "relations": {
+    "father": "mohan",
+    "mother": "lakshmi"
+  }
+}
