@@ -7,9 +7,9 @@
 # print('odd numbers :',odd)
 
 # 15/5  / -> 3       % -> 0
-# for num in range(11):
-#     if num % 2 == 0:
-#         print(num)
+for num in range(11):
+    if num % 2 == 0:
+        print(num)
 
 
 ''' sum of given numbers '''
