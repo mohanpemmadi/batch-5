@@ -7,9 +7,9 @@
 # print('odd numbers :',odd)
 
 # 15/5  / -> 3       % -> 0
-for num in range(11):
-    if num % 2 == 0:
-        print(num)
+# for num in range(11):
+#     if num % 2 == 0:
+#         print(num)
 
 
 ''' sum of given numbers '''
@@ -92,6 +92,19 @@ def count_fun(lst, n):
 lst = [1,2,1,2,1,3,4,1,4,1]
 n = 4
 # print(count_fun(lst,n))
+
+
+''' pick random numbers between range '''
+
+import random
+
+# print(random.randint(10,100))
+# print(random.uniform(10,20))
+
+# print(random.random()) # 0 to 1
+
+# print(random.choice(['mohan', 'venky', 'varma', 'krishna']))
+# print(random.choice(('mohan', 'venky', 'varma', 'krishna')))
 
 
 
