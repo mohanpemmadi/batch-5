@@ -106,6 +106,63 @@ import random
 # print(random.choice(['mohan', 'venky', 'varma', 'krishna']))
 # print(random.choice(('mohan', 'venky', 'varma', 'krishna')))
 
+''' how two for loops works '''
+
+l1 = [10, 11, 12]
+l2 = ['mohan', 'venky', 'gopi', 'naveen']
+
+# for i in l1:
+#     for j in l2:
+#         print('l1 i :', i)
+#         print('l2 j :', j)
+#         print('*******************')
+
+# for i in range(1,5): #[1,2,3,4]
+#     for j in range(10,13): #[10,11,12]
+#         print('i :',i)
+#         print('j :',j)
+#         print('#####')
+
+
+''' zip (parallel iteration)'''
+
+# lst1 = [10,11,12,13]
+# lst2 = [20,21,22,23]
+# lst3 = [30,31,32,33]
+
+# output = [30,32,34,36]
+
+# for i,j,k in zip(lst1,lst2,lst3):
+#     print(i+j+k)
+
+''' return more then one value '''
+# venky = 100
+def sample():
+    return 'mohan','vasu','venky'
+# result = sample()
+# one,two,three = sample()
+# print('one:',one)
+# print('two:',two)
+# print('three:',three)
+# print('result: ',result)
+
+''' enumerate '''
+
+lst4 = [100, 200, 300, 400]
+
+for index,value in enumerate(lst4):
+
+    print('index :',index)
+    print('value :',value)
+    print('****************')
+    # print(f'{index} th index value is {value}')
+
+''' max value from a list '''
+
+'''sort vs sorted '''
+
+''' sort a list without using inbuilt method(sort) '''
+
 
 
 
