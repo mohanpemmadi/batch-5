@@ -148,21 +148,187 @@ def sample():
 
 ''' enumerate '''
 
-lst4 = [100, 200, 300, 400]
-
-for index,value in enumerate(lst4):
-
-    print('index :',index)
-    print('value :',value)
-    print('****************')
+# lst4 = [100, 200, 300, 400]
+#
+# for index,value in enumerate(lst4):
+#
+#     print('index :',index)
+#     print('value :',value)
+#     print('****************')
     # print(f'{index} th index value is {value}')
 
 ''' max value from a list '''
 
-'''sort vs sorted '''
+lst5 = [101,20,14,25,13,29,3,7,33]
+
+# print(max(lst5))
+# print(min(lst5))
+
+mx = 0
+
+for value in lst5:
+    if value > mx:
+        mx = value
+# print('maximum value :',mx)
+
+
+
+''' sort vs sorted '''
+
+lst6 = [101,20,14,25,13,29,3,7,33]
+lst7 = [101,20,14,25,13,29,3,7,33]
+
+lst8 = ['sai','mohan','az','ravi','adi','venkat']
+lst9 = ['sai','mohan','ravi','adi','venkat']
+
+# sort
+# print('before sort lst6: ',lst6 )
+# lst6.sort(reverse=True)
+# print('after sort lst6: ',lst6 )
+
+# lst8.sort(key=len)
+# print(lst8)
+
+
+print('*******************')
+# sorted
+# print('before sorted lst7: ',lst7 )
+# print(sorted(lst7, reverse=True))
+# print('after sorted lst7: ',lst7 )
+
+# print(sorted(lst9))
+# print(sorted(lst9,reverse=True))
+# print(sorted(lst9,key=len))
+
+
+
+
+
+
 
 ''' sort a list without using inbuilt method(sort) '''
 
+lst10 = [101, 20, 14, 25, 13, 29, 3, 7, 33]
+print('before sort : ',lst10)
+for i in range(len(lst10)):
+    for j in range(i+1,len(lst10)):
+        if lst10[i] > lst10[j]:
+            lst10[i], lst10[j] = lst10[j], lst10[i]
+print('after sort : ',lst10)
+
+
+
+
+
+
+''' instance method vs static method vs class method '''
+
+
+class Person:
+
+    def method_1(self):
+        print('instance method')
+
+    @classmethod
+    def method_2(cls, value2):
+        print('class method ',cls,value2)
+
+    @staticmethod
+    def method_3(value3):
+        print('static method',value3)
+
+# obj = Person()
+# obj.method_1()
+# obj.method_2(100)
+# obj.method_3(1000)
+
+''' pickling vs unpickling '''
+
+import pickle
+
+dt = {'name':'srinu','age':30}
+
+pickle_obj = pickle.dumps(dt)
+# print(pickle_obj)
+
+original_obj = pickle.loads(pickle_obj)
+# print(original_obj)
+
+
+# with open('sample.pkl', 'wb') as fp:
+#     pickle.dump(dt,fp)
+#     print('done')
+
+# with open('sample.pkl', 'rb') as fp:
+#     data = pickle.load(fp)
+#     print(data)
+
+
+''' complied vs interpreter '''
+
+# complied - program -> bytes file(zeros and ones) -> executes entire bytes file once
+# interpreter -> program -> executes line by line
+
+# import testing
+# print(testing.demo())
+
+
+''' doc string - it's like a comment which tells about what function/class does '''
+
+# documentation string
+
+def sum(a,b):
+    ''' it's takes two argument and sum up! '''  # doc string
+    return a+b
+
+# print(sum.__doc__)
+
+''' pass '''
+
+def demo():
+    for i in range(1,10):
+        if i%2 == 0:
+            pass
+        else:
+            print('odd : ',i)
+
+# demo()
+
+def read():
+    print('read function ')
+
+def insert():
+    pass
+def update():
+    pass
+
+# read()
+# insert()
+# update()
+
+''' access specifiers '''
+
+# public
+# protected
+# private
+
+class Employee:
+
+    def __init__(self,name,age,salary):
+        emp_name = name # public
+        _emp_age = age  # protected
+        __emp_salary = salary # private
+
+''' issubclass '''
+
+class A:
+    pass
+
+class B(A):
+    pass
+
+# print(issubclass(B,A))
+# print(issubclass(A,B))
 
 
 
